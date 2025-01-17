@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    @font-face {
+      font-family: 'myFont1';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(../font/319aff5070b888fa-s.p.woff2) format('woff2');
+    }
+    @font-face {
+      font-family: 'myFont2';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(../font/5f109a19b50a77e1-s.p.woff2) format('woff2');
+    }
+    @font-face {
+      font-family: 'myFont3';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(../font/a58981306c81bd63-s.p.woff2) format('woff2');
+    }
+
+  }
+  
